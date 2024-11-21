@@ -19,7 +19,7 @@ const Question1 = memo(() => {
   return (
     <section>
       <h2>Question 1</h2>
-      <p>Write a javascript function that finds the duplicate items in any given array.</p>
+      <p>Description: Write a javascript function that finds the duplicate items in any given array.</p>
 
       <div>
         <input type="text" name='input' className='input' value={input} onChange={(event) => setInput(event.target.value)} />
