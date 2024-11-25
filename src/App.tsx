@@ -4,6 +4,7 @@ import Question1 from './questions/question1/Question1'
 import { Question2 } from './questions/question2/Question2'
 import Question3 from './questions/question3'
 import { Question4 } from './questions/question4/Question4'
+import { Question5 } from './questions/question5/Question5'
 
 
 function App() {
@@ -26,6 +27,12 @@ function App() {
       <div className="card">
         <Question4 />
       </div>
+
+      <div className="card">
+        <Question5 />
+      </div>
+
+      <br />
     </div>
   )
 }
